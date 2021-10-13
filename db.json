@@ -1,0 +1,19 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "What Is JavaScript Made Of?",
+      "body": "During my first few years of using JavaScript, I felt like a fraud. Even though I could build websites with frameworks, something was missing. I dreaded JavaScript job interviews because I didn’t have a solid grasp on fundamentals..."
+    },
+    {
+      "id": 2,
+      "title": "A Complete Guide to useEffect",
+      "body": "You wrote a few components with Hooks. Maybe even a small app. You’re mostly satisfied. You’re comfortable with the API and picked up a few tricks along the way. You even made some custom Hooks to extract repetitive logic (300 lines gone!) and showed it off to your colleagues. “Great job”, they said..."
+    },
+    {
+      "id": 3,
+      "title": "Before You memo()",
+      "body": "There are many articles written about React performance optimizations. In general, if some state update is slow, you need to: Verify you’re running a production build. (Development builds are intentionally slower, in extreme cases even by an order of magnitude.) Verify that you didn’t put the state higher in the tree than necessary. (For example, putting input state in a centralized store might not be the best idea.) Run React DevTools Profiler to see what gets re-rendered, and wrap the most expensive subtrees with memo(). (And add useMemo() where needed.) This last step is annoying, especially for components in between, and ideally a compiler would do it for you. In the future, it might."
+    }
+  ]
+}
